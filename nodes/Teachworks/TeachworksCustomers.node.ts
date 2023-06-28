@@ -12,6 +12,8 @@ export class TeachworksCustomers implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'Teachworks Customers',
     name: 'teachworksCustomers',
+    // I cannot find an svg icon for teachworks.
+    // eslint-disable-next-line n8n-nodes-base/node-class-description-icon-not-svg
     icon: 'file:teachworks.png',
     group: ['transform'],
     version: 1,
