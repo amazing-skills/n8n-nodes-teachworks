@@ -77,9 +77,9 @@ export class TeachworksCustomers implements INodeType {
             },
           },
           {
-            name: 'Create an Family Child',
-            value: 'createFamilyChild',
-            action: 'Create a family child',
+            name: 'Create an Family Student',
+            value: 'createFamilyStudent',
+            action: 'Create a family student',
             routing: {
               request: {
                 method: 'POST',
@@ -156,7 +156,7 @@ export class TeachworksCustomers implements INodeType {
         required: true,
         displayOptions: {
           show: {
-            operation: ['createFamily', 'createFamilyChild'],
+            operation: ['createFamily', 'createFamilyStudent'],
           },
         },
         routing: {
@@ -176,7 +176,7 @@ export class TeachworksCustomers implements INodeType {
         required: true,
         displayOptions: {
           show: {
-            operation: ['createFamily', 'createFamilyChild'],
+            operation: ['createFamily', 'createFamilyStudent'],
           },
         },
         routing: {
@@ -248,14 +248,14 @@ export class TeachworksCustomers implements INodeType {
         ],
       },
       {
-        displayName: 'Create Family Child Options',
-        name: 'createFamilyChildOptions',
+        displayName: 'Create Family Student Options',
+        name: 'createFamilyStudentOptions',
         type: 'collection',
         default: {},
         placeholder: 'Add Option',
         displayOptions: {
           show: {
-            operation: ['createFamilyChild'],
+            operation: ['createFamilyStudent'],
           },
         },
         options: [
