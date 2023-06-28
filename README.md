@@ -39,4 +39,5 @@ Tested on n8n: `0.233.1`
 
 ## Version history
 
+- `0.2.0`: Add nodes for creating & searching students
 - `0.1.0`: Initial version
